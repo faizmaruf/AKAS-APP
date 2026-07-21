@@ -1,28 +1,28 @@
-# Windu Kopi by Akas
+# Akas APP | Andal Kasir
 
-Aplikasi Android hybrid Windu Kopi berbasis Akas. UI dan transaksi dibuka melalui WebView, sedangkan scanner dan printer ESC/POS dijalankan secara native.
+Aplikasi Android Akas. UI dan transaksi dibuka melalui WebView, sedangkan scanner dan printer ESC/POS dijalankan secara native.
 
 ## Konfigurasi aplikasi
 
 Konfigurasi build berada di `app/src/main/assets/pos-config.txt`:
 
 ```text
-START_URL=https://windu-kopi.akas.my.id/
+START_URL=https://akas.my.id/
 ALLOWED_HOSTS=akas.my.id,*.akas.my.id
 APP_NAME=Windu Kopi by Akas
-LAUNCHER_LOGO=drawable/windu_kopi_logo.png
+LAUNCHER_LOGO=drawable/akas_logo.png
 DEFAULT_PAPER_WIDTH_MM=58
 ```
 
 - `START_URL`: halaman pertama WebView.
 - `ALLOWED_HOSTS`: domain yang boleh tetap dibuka di WebView, dipisahkan koma. Gunakan `*.domain.com` untuk subdomain.
-- `LAUNCHER_LOGO`: asset logo launcher yang dibaca oleh build. Konfigurasi Windu Kopi menggunakan `app/src/main/res/drawable/windu_kopi_logo.png`.
+- `LAUNCHER_LOGO`: asset logo launcher yang dibaca oleh build. Konfigurasi AKAS  menggunakan `app/src/main/res/drawable/akas_logo.png`.
 - `DEFAULT_PAPER_WIDTH_MM`: `58` atau `80`. Pengguna dapat menggantinya dari halaman konfigurasi printer.
 
 Untuk build tenant tertentu, ubah hanya URL awal dan biarkan wildcard host tetap aktif. Contoh:
 
 ```text
-START_URL=https://windu-kopi.akas.my.id/login
+START_URL=https://akas.my.id/login
 ALLOWED_HOSTS=akas.my.id,*.akas.my.id
 ```
 
