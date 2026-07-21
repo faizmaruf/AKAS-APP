@@ -1,0 +1,134 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+app/build
+keystore.properties
+secure/
+release/
+# ===========================
+# Android / Kotlin
+# ===========================
+
+# Build
+/build/
+/app/build/
+/*/build/
+/captures/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Generated files
+.generated/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio
+.idea/
+*.iml
+
+# Keep shared code style (optional)
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Navigation Safe Args
+.navigation/
+
+# Kotlin
+.kotlin/
+
+# KAPT
+kapt/
+kapt3/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# APK / AAB
+*.apk
+*.ap_
+*.aab
+
+# Dex
+*.dex
+
+# Java
+*.class
+
+# Native
+obj/
+lib/
+
+# NDK
+.ndk/
+
+# Signing Keys
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Secrets
+secrets.properties
+apikey.properties
+keys.properties
+.env
+.env.*
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Profiling
+*.hprof
+
+# Crashlytics
+crashlytics.properties
+
+# Test output
+test-output/
+coverage/
+jacoco/
+*.ec
+
+# VS Code
+.vscode/
+
+# IntelliJ
+out/
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db

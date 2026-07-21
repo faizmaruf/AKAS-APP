@@ -1,0 +1,8 @@
+# janji setia coffee Kopi by Akas Android configuration
+# Edit this file, then rebuild the APK.
+
+START_URL=https://janji-setia-coffee.akas.my.id/
+ALLOWED_HOSTS=akas.my.id,*.akas.my.id
+APP_NAME=Janji Setia Kopi by Akas
+LAUNCHER_LOGO=drawable/janji_kopi_logo.jpg
+DEFAULT_PAPER_WIDTH_MM=58

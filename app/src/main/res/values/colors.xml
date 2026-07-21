@@ -1,0 +1,12 @@
+<resources>
+    <color name="akas_green">#173F35</color>
+    <color name="akas_cream">#F5EFE3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="page_background">#F4F6F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#17211E</color>
+    <color name="text_secondary">#66736E</color>
+    <color name="success_background">#E6F5EF</color>
+    <color name="success">#087A58</color>
+    <color name="divider">#E3E9E6</color>
+</resources>
